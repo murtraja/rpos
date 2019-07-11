@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rpos_app *.css
+recursive-include rpos_app *.csv
+recursive-include rpos_app *.html
+recursive-include rpos_app *.ico
+recursive-include rpos_app *.js
+recursive-include rpos_app *.json
+recursive-include rpos_app *.md
+recursive-include rpos_app *.png
+recursive-include rpos_app *.py
+recursive-include rpos_app *.svg
+recursive-include rpos_app *.txt
+recursive-exclude rpos_app *.pyc
